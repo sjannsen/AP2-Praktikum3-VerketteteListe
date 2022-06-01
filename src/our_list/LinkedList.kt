@@ -112,12 +112,12 @@ class LinkedList<T> : Iterable<T> {
 
     //AUFGABE 3.3 Weitere Funktionen höherer Ordnung
 
-    //Implementieren Sie die size Methode aus Aufgabe 2.2 mit der forEach Methode. Es soll
-    //nach wie vor zurückgegeben werden, wie viele Elemente in der Liste sind.
 
     //a)
     fun sizeWithForEachMethod(): Int {
-        TODO()
+        var counter = 0
+        forEach { counter++ }
+        return counter
     }
 
     //b)

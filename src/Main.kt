@@ -41,7 +41,7 @@ fun main() {
 
     //Aufgabe 3.3
     //a)
-    //TODO()
+//    println(list.sizeWithForEachMethod())
 
     //b)
     val list = LinkedList<String>()
@@ -52,6 +52,7 @@ fun main() {
         element.startsWith("B")
     }
     println(fruitsStartWithB) // 2
+
 
 
 }
